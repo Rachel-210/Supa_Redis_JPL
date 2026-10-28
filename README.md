@@ -17,21 +17,6 @@ Este projeto consiste em uma evolução de um sistema de gerenciamento de loja q
 - **Frontend:** HTML, CSS, Bootstrap 5, Jinja2
 - **Controle de Versão:** Git e GitHub
 
-## 🚀 Instruções para Instalação, Configuração e Execução
-
-1. Clone o repositório ou baixe os arquivos do projeto.
-2. No terminal, navegue até a pasta `src`:
-   ```bash
-   cd src
-3. Instale as dependências necessárias:
-   ```Bash
-   pip install Flask psycopg2-binary redis
-4. Configure as variáveis de ambiente com suas credenciais do Supabase e do Redis Cloud.
-5. Execute a aplicação:
-   ```Bash
-   python app.py
-6. Acesse no navegador: http://127.0.0.1:5000/
-
 ## 🗄️ Integração com o Supabase
 O Supabase (PostgreSQL) foi utilizado como o banco de dados oficial da aplicação. Toda a estrutura relacional (tabelas de produtos, categorias e vendas) reside nele. A regra de negócio principal de fechamento de venda (pr_realizar_venda) é executada diretamente no banco devedor por meio de procedimentos armazenados, garantindo a integridade e a baixa acoplagem do estoque.
 
@@ -63,5 +48,20 @@ O Supabase (PostgreSQL) foi utilizado como o banco de dados oficial da aplicaç�
   <img src="imagens/nova_venda.png.png" width="900">
 </div>
 
-### 📹 Vídeo de Apresentação
+## 📹 Vídeo de Apresentação
 * **Link da Apresentação:** https://canva.link/g59a15nqakfnd0v
+  
+## 🚀 Instruções para Instalação, Configuração e Execução
+
+1. Clone o repositório ou baixe os arquivos do projeto.
+2. No terminal, navegue até a pasta `src`:
+   ```bash
+   cd src
+3. Instale as dependências necessárias:
+   ```Bash
+   pip install Flask psycopg2-binary redis
+4. Configure as variáveis de ambiente com suas credenciais do Supabase e do Redis Cloud.
+5. Execute a aplicação:
+   ```Bash
+   python app.py
+6. Acesse no navegador: http://127.0.0.1:5000/
