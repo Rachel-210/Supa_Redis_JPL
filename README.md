@@ -51,9 +51,12 @@ O Supabase (PostgreSQL) foi utilizado como o banco de dados oficial da aplicaç�
 
 * **Catálogo de Produtos:**  
 <div align="center">
-  <img src="imagens/produtos.png.png" width="900">
+  <img src="imagens/produtos1.png.png" width="900">
 </div>
 
+<div align="center">
+  <img src="imagens/produtos2.png.png" width="900">
+</div>
 
 * **Cadastro de Nova Venda:**  
 <div align="center">
