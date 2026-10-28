@@ -64,4 +64,4 @@ O Supabase (PostgreSQL) foi utilizado como o banco de dados oficial da aplicaç�
 </div>
 
 ### 📹 Vídeo de Apresentação
-* **Link da Apresentação:** 
+* **Link da Apresentação:** https://canva.link/g59a15nqakfnd0v
